@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    image: 525521706167.dkr.ecr.us-east-1.amazonaws.com/messenger:newest
+    ports:
+      - "3000:3000"
+    x-aws-vpc: default
